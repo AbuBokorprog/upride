@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   return (
     <div className="container mx-auto">
       <div className="navbar bg-base-100">
@@ -45,12 +46,14 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <img src="/public/navlogo.png" alt="" />
+          <Link to={"/"}>
+            <img src="/navlogo.png" alt="Upride" />
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <div className="menu menu-horizontal gap-32 px-1">
             <div className="flex items-center gap-3 border-s ps-2">
-              <img src="/public/dotIcon.png" className="" alt="" />
+              <img src="/dotIcon.png" className="" alt="" />
               <p>
                 <span className="text-accent">Contact us :</span>{" "}
                 <span className="font-medium">+91 9211420786</span>
@@ -66,12 +69,12 @@ const Navbar = () => {
         </div>
         <div className="navbar-end flex lg:gap-4 items-center border-s">
           <div className="hidden lg:block">
-            <img src="/public/bell.png" alt="" className="w-4" />
+            <img src="/bell.png" alt="" className="w-4" />
           </div>
           <div className="flex gap-2 items-center justify-end">
-            <img src="/public/user.png" alt="" />
+            <img src="/user.png" alt="" />
             <p>Hello Rahul! </p>
-            <img src="/public/hand.png" alt="" />
+            <img src="/hand.png" alt="" />
           </div>
         </div>
       </div>
