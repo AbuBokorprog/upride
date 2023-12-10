@@ -1,11 +1,12 @@
-// import React from 'react';
+import React from "react";
 import { BiSolidCarWash } from "react-icons/bi";
 import { IoCarSportOutline } from "react-icons/io5";
 import { LiaUserAstronautSolid } from "react-icons/lia";
+import { FaUserCog } from "react-icons/fa";
 
-const OurServices = () => {
+const OurServices: React.FC = () => {
   return (
-    <div className="my-10 lg:my-20">
+    <div className="my-10 lg:my-20 mx-auto">
       <div className="text-center my-10 lg:my-20">
         <p className="text-primary uppercase text-xl">Our Services</p>
         <h2>How can we help you?</h2>
@@ -20,11 +21,7 @@ const OurServices = () => {
             </p>
           </div>
           <div className="text-center my-2 lg:my-0 mx-auto h-52 hover:text-primary hover:border-b-2 hover:border-primary">
-            <img
-              src="https://cdn-icons-png.flaticon.com/128/12308/12308020.png"
-              alt=""
-              className="w-24"
-            />
+            <FaUserCog className="w-28 h-28" />
             <p>
               Book Driving <br /> Instructors
             </p>
@@ -58,7 +55,45 @@ const OurServices = () => {
             <button className="text-primary">Book Now</button>
           </div>
           <div>
-            <img src="/public/banner.png" alt="" />
+            <img src="/banner.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div className="my-20">
+        <h4 className="text-center md:mx-20">
+          Why Choose <span className="font-bold">Upride</span> as your choice
+          <br /> for a comprehensive driving learning experience?
+        </h4>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto my-10">
+          <div className="text-center">
+            <h3 className="bg-primary mx-24 rounded-xl text-white">1000+</h3>
+            <h4>Trained</h4>
+            <p>
+              <small>through Upride</small>
+            </p>
+          </div>
+          <div className="text-center">
+            <h3 className="bg-[#2EC2B8] mx-28 rounded-xl text-white">99%</h3>
+            <h4>Rating</h4>
+            <p>
+              <small>through Upride</small>
+            </p>
+          </div>
+          <div className="text-center">
+            <h3 className="bg-[#FFDC6B] rounded-xl mx-[120px] text-white">
+              60
+            </h3>
+            <h4>Minutes</h4>
+            <p>
+              <small>through Upride</small>
+            </p>
+          </div>
+          <div className="text-center">
+            <h3 className="bg-primary mx-28 rounded-xl text-white">150+</h3>
+            <h4>Reviews</h4>
+            <p>
+              <small>through Upride</small>
+            </p>
           </div>
         </div>
       </div>

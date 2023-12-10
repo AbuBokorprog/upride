@@ -1,8 +1,8 @@
-// import React from 'react';
+import React from "react";
 import { MdLocationSearching } from "react-icons/md";
 import { FaSearch } from "react-icons/fa";
 
-const Banner = () => {
+const Banner: React.FC = () => {
   return (
     <div className="">
       <div className="grid bg-primary grid-cols-4 md:grid-cols-5 lg:grid-cols-11 items-center justify-evenly px-4 text-white">
@@ -57,10 +57,10 @@ const Banner = () => {
           <img src="/Main-banner.png" alt="" className="w-full lg:max-w-fit" />
         </div>
       </div>
-      <div className="my-10 gap-4 mx-auto lg:flex justify-around">
+      <div className="my-10 gap-4 mx-auto md:flex justify-around">
         <div className="flex items-center my-1 lg:my-0 gap-4 justify-center">
           <div className="relative">
-            <img src="/public/Polygon-blue.png" alt="" />
+            <img src="/Polygon-blue.png" alt="" />
             <img
               src="https://cdn-icons-png.flaticon.com/128/143/143438.png"
               alt=""
@@ -75,7 +75,7 @@ const Banner = () => {
         </div>
         <div className="flex items-center gap-4 my-1 lg:my-0 justify-center">
           <div className="relative">
-            <img src="/public/Polygon-red.png" alt="" />
+            <img src="/Polygon-red.png" alt="" />
             <img
               src="https://cdn-icons-png.flaticon.com/128/3176/3176382.png"
               alt=""
@@ -90,7 +90,7 @@ const Banner = () => {
         </div>
         <div className="flex items-center gap-4 my-1 lg:my-0 justify-center">
           <div className="relative">
-            <img src="/public/Polygon-green.png" alt="" />
+            <img src="/Polygon-green.png" alt="" />
             <img
               src="https://cdn-icons-png.flaticon.com/128/7785/7785988.png"
               alt=""
