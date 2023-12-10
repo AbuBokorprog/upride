@@ -46,7 +46,7 @@ const Banner = () => {
               </button>
             </div>
           </div>
-          <div className="mt-6 flex items-center gap-6 justify-center md:justify-between lg:justify-start">
+          <div className="mt-6 flex items-center gap-6 justify-center md:justify-evenly lg:justify-start">
             <button className="btn bg-primary text-white">
               Book Driving School
             </button>
@@ -54,11 +54,54 @@ const Banner = () => {
           </div>
         </div>
         <div className="">
-          <img
-            src="/public/Main-banner.png"
-            alt=""
-            className="w-full lg:max-w-fit"
-          />
+          <img src="/Main-banner.png" alt="" className="w-full lg:max-w-fit" />
+        </div>
+      </div>
+      <div className="my-10 gap-4 mx-auto lg:flex justify-around">
+        <div className="flex items-center my-1 lg:my-0 gap-4 justify-center">
+          <div className="relative">
+            <img src="/public/Polygon-blue.png" alt="" />
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/143/143438.png"
+              alt=""
+              className="text-primary absolute bottom-[15px] w-6 left-[10px]"
+            />
+          </div>
+          <div>
+            <p>
+              100% Customer <br /> Satisfaction
+            </p>
+          </div>
+        </div>
+        <div className="flex items-center gap-4 my-1 lg:my-0 justify-center">
+          <div className="relative">
+            <img src="/public/Polygon-red.png" alt="" />
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/3176/3176382.png"
+              alt=""
+              className="text-primary absolute bottom-[15px] w-6 left-3"
+            />
+          </div>
+          <div>
+            <p>
+              Safer Roads is <br /> Our Mission
+            </p>
+          </div>
+        </div>
+        <div className="flex items-center gap-4 my-1 lg:my-0 justify-center">
+          <div className="relative">
+            <img src="/public/Polygon-green.png" alt="" />
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/7785/7785988.png"
+              alt=""
+              className="text-primary absolute bottom-[15px] w-6 left-[10px]"
+            />
+          </div>
+          <div>
+            <p>
+              100% Best <br /> Quality service
+            </p>
+          </div>
         </div>
       </div>
     </div>
