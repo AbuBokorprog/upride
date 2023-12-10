@@ -26,5 +26,5 @@ h6 {
   @apply text-base lg:text-lg font-semibold;
 }
 p {
-  @apply text-base lg:text-lg;
+  @apply text-base font-normal;
 }
