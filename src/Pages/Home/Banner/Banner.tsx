@@ -33,7 +33,7 @@ const Banner = () => {
             <input
               type="search"
               placeholder="Search Location, Driving School or Services..."
-              className="input input-bordered relative w-full max-w-md rounded-3xl"
+              className="input shadow-lg input-bordered relative w-full max-w-md rounded-3xl"
             />
             <div
               className="flex items-center gap-2 mt-4 lg:mt-0 md:absolute md:bottom-[575px] lg:bottom-8
