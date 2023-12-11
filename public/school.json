@@ -1,0 +1,50 @@
+[
+  {
+    "id": "76823",
+    "title": "SharpDrives Driving School- kerekodi",
+    "location": "Kerekodi, Bengaluru",
+    "image": "/card-image.png",
+    "ratings": 4.8,
+    "price": 2500
+  },
+  {
+    "id": "7684",
+    "title": "Prerana Driving School-Uttarahalli",
+    "location": "uttarhalli Hobli, bengaluru",
+    "image": "/card-image2.png",
+    "ratings": 4.5,
+    "price": 2500
+  },
+  {
+    "id": "76825",
+    "title": "Riders driving School-ThyagarajNagar",
+    "location": "Thyagaraj Nagar, Bengaluru",
+    "image": "/card-image3.png",
+    "ratings": 4.9,
+    "price": 1500
+  },
+  {
+    "id": "76826",
+    "title": "SharpDrives Driving School- kerekodi",
+    "location": "Kerekodi, Bengaluru",
+    "image": "/card-image.png",
+    "ratings": 4.8,
+    "price": 2500
+  },
+  {
+    "id": "76827",
+    "title": "Prerana Driving School-Uttarahalli",
+    "location": "uttarhalli Hobli, bengaluru",
+    "image": "/card-image2.png",
+    "ratings": 4.5,
+    "price": 2500
+  },
+  {
+    "id": "76828",
+    "title": "Riders driving School-ThyagarajNagar",
+    "location": "Thyagaraj Nagar, Bengaluru",
+    "image": "/card-image3.png",
+    "ratings": 4.9,
+    "price": 1500
+  }
+]

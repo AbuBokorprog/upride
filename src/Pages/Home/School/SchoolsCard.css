@@ -1,0 +1,17 @@
+.gradient-from {
+  background-image: linear-gradient(to right, #ff006e, #ffbe0b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-to {
+  background-image: linear-gradient(to right, #ff006e, #ff9d0b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-gradient {
+  @apply gradient-from gradient-to;
+}
