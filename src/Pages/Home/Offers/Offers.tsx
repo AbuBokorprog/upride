@@ -1,7 +1,7 @@
 import React from "react";
 import { MdOutlineHorizontalRule } from "react-icons/md";
 
-const Offers = () => {
+const Offers: React.FC = () => {
   return (
     <div className="my-10 lg:my-20 mx-2 md:mx-10">
       <div className="my-10 lg:my-20">
