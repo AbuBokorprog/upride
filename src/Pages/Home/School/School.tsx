@@ -32,11 +32,11 @@ const School: React.FC = () => {
             Bengaluru
           </p>
           <div className="flex gap-4 mt-2 md:mt-0 justify-between md:justify-start items-center">
-            <button className="btn bg-primary rounded-3xl text-white">
+            <button className="btn bg-primary btn-error rounded-3xl text-white">
               <MdLocationSearching className="md:w-5 md:h-5"></MdLocationSearching>
               Near Me
             </button>
-            <button className="btn">View All</button>
+            <button className="btn rounded-3xl">View All</button>
           </div>
         </div>
       </div>
