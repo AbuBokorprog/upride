@@ -17,7 +17,6 @@ const SchoolsCard: React.FC<Schools> = ({
   ratings,
   price,
 }) => {
-  console.log(ratings);
   return (
     <div>
       <div className="card card-compact mx-auto w-96 bg-base-100 shadow-xl">

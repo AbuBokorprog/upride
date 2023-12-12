@@ -1,0 +1,6 @@
+.border-color-specific {
+  border-top: 2px solid rgba(255, 0, 110, 1); /* #ff006e with alpha 1 */
+  border-right: 2px solid rgba(255, 10, 100, 0.8); /* #ffbe0b with alpha 0.8 */
+  border-bottom: 2px solid rgba(255, 0, 110, 0.8); /* #ff006e with alpha 0.6 */
+  border-left: 2px solid rgba(255, 0, 110, 0.8); /* #ff006e with alpha 0.4 */
+}

@@ -5,7 +5,7 @@ import School from "./School/School";
 import Offers from "./Offers/Offers";
 import ClientSays from "./ClientSays/ClientSays";
 import FAQ from "./FAQ'S/FAQ's";
-// import LearningTab from "./LearningTab/LearningTab";
+import LearningTab from "./LearningTab/LearningTab";
 
 const Home: React.FC = () => {
   return (
@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       <OurServices />
       <School />
       <Offers />
-      {/* <LearningTab /> */}
+      <LearningTab />
       <ClientSays />
       <FAQ />
     </div>
