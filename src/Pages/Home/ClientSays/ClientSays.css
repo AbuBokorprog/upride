@@ -1,0 +1,7 @@
+/* Add this to your CSS or styles */
+.swiper-pagination-bullet {
+  background-color: #ff006e; /* Change the background color as needed */
+  width: 8px; /* Set the width of the pagination dots */
+  height: 8px; /* Set the height of the pagination dots */
+  margin: 0 5px; /* Adjust the margin between pagination dots */
+}

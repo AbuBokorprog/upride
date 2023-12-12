@@ -25,7 +25,7 @@ const ClientSays: React.FC = () => {
         setReviews(data);
       });
   }, []);
-  console.log(reviews);
+
   return (
     <div className="my-10 lg:my-20 mx-2 md:mx-10">
       <div className="my-10 lg:my-20">
@@ -38,8 +38,21 @@ const ClientSays: React.FC = () => {
       <div className="my-4">
         <>
           <Swiper
-            slidesPerView={3}
-            spaceBetween={30}
+            breakpoints={{
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+              },
+              800: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+            }}
             freeMode={true}
             pagination={{
               clickable: true,
@@ -51,13 +64,13 @@ const ClientSays: React.FC = () => {
               {reviews?.map((r: ReviewsInfo) => (
                 <SwiperSlide
                   key={r.id}
-                  className="bg-white p-6 shadow-xl rounded-lg dark:bg-secondary-800 dark:border-secondary-800"
+                  className="bg-white mb-14 p-6 shadow-xl rounded-lg dark:bg-secondary-800 dark:border-secondary-800"
                 >
-                  <div>
+                  <div className="">
                     <ImQuotesLeft className="text-primary w-14 h-14" />
                     <h6 className="text-accent">{r.description}</h6>
                   </div>
-                  <div className="flex justify-start my-4 p-2 gap-4 items-center rounded-3xl shadow-xl">
+                  <div className="flex w-56 justify-start my-4 p-2 gap-4 items-center rounded-3xl shadow-xl">
                     <div>
                       <img
                         src={r.user_profile}

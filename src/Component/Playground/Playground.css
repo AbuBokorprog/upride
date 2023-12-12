@@ -1,0 +1,55 @@
+/* ReviewsCarousel.css */
+.carousel-container {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.reviews {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.review {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #f4777c;
+  width: 20px;
+  height: 20px;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  .review {
+    flex: 0 0 48%; /* Two reviews per row on tablets */
+  }
+}
+
+@media (min-width: 992px) {
+  .review {
+    flex: 0 0 31%; /* Three reviews per row on desktops */
+  }
+}

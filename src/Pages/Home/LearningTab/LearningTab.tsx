@@ -27,7 +27,7 @@ const LearningTab: React.FC = () => {
       </h2>
       <div className="my-5 lg:my-20 md:flex justify-center items-center gap-6">
         <div>
-          <img src="/public/thums-banner.png" alt="" className="w-96" />
+          <img src="/thums-banner.png" alt="" className="w-96" />
         </div>
         <div className="w-96">
           <h3>

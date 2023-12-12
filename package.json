@@ -1,4 +1,9 @@
 {
+  "compilerOptions": {
+    "types": [
+      "swiper"
+    ]
+  },
   "name": "upride-react",
   "private": true,
   "version": "0.0.0",
