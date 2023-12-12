@@ -14,7 +14,7 @@ const LearningTab: React.FC = () => {
   const [learningAll, setLearningAll] = useState<LearningAllTab[]>();
 
   useEffect(() => {
-    fetch("/public/Learning.json")
+    fetch("/Learning.json")
       .then((res) => res.json())
       .then((data) => {
         setLearningAll(data);
@@ -81,13 +81,13 @@ const LearningTab: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="my-10 lg:my-20 rounded-xl lg:mx-60 text-center border-color-specific">
+      <div className="my-10 px-6 mx-auto lg:my-20 rounded-xl lg:w-1/2 text-center border-color-specific">
         <h3 className="my-4">Prepare for Learner’s License Test</h3>
-        <p className="lg:px-28 my-2">
+        <p className="my-2">
           Curated videos for you to easily pass learner’s license test. Watch
-          now and pass the test with utmost ease.{" "}
+          now and pass the test with utmost ease.
         </p>
-        <button className="mb-2 btn rounded-3xl text-white lg:mx-60 bg-gradient-to-r from-[#FF006E] to-[#FFBE0B]">
+        <button className="mb-2 btn rounded-3xl text-white bg-gradient-to-r from-[#FF006E] to-[#FFBE0B]">
           Watch Now
         </button>
       </div>

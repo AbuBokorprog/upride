@@ -15,7 +15,7 @@ const LearningAll: React.FC<LearningAll> = ({
   isTrending,
 }) => {
   return (
-    <div>
+    <div className="mx-auto">
       <div className="card bg-base-100 shadow-xl">
         <figure className="relative">
           <img src={image} alt="blog" />
