@@ -1,0 +1,27 @@
+[
+  {
+    "id": "56456",
+    "image": "/blog-1.png",
+    "title": "Learn Basic",
+    "isTrending": "Trending",
+    "description": "description"
+  },
+  {
+    "id": "56457",
+    "image": "/blog-2.png",
+    "title": "Learn Basic-2",
+    "description": "Learn about basics of car driving. Understand the combination of clutch, brake & accelerator"
+  },
+  {
+    "id": "56458",
+    "image": "/blog-3.png",
+    "title": "Road Safety ",
+    "description": "Learn about basics of car driving. Understand the combination of clutch, brake & accelerator"
+  },
+  {
+    "id": "56459",
+    "image": "/blog-4.png",
+    "title": "Traffic Rules",
+    "description": "Learn about basics of car driving. Understand the combination of clutch, brake & accelerator"
+  }
+]
