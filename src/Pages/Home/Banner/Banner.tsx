@@ -5,7 +5,7 @@ import { FaSearch } from "react-icons/fa";
 const Banner: React.FC = () => {
   return (
     <div className="">
-      <div className="grid bg-primary grid-cols-4 md:grid-cols-5 lg:grid-cols-11 items-center justify-evenly px-4 text-white">
+      <div className="grid bg-primary grid-cols-3 md:grid-cols-5 lg:grid-cols-11 items-center justify-evenly px-4 text-white">
         <p>Kerekodi</p>
         <p>Banaswadi</p>
         <p>Kormangala</p>

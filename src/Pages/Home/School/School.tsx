@@ -40,7 +40,7 @@ const School: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mx-auto">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mx-auto">
         {schools?.map((school: Schools) => (
           <SchoolsCard key={school.id} {...school}></SchoolsCard>
         ))}

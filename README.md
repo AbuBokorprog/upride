@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+# Upride Driving School
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Upride Driving School is an online platform designed to provide comprehensive and personalized learning programs for individuals seeking driving education. The platform offers curated videos, learner's license test preparation, user reviews, and a list of recommended driving schools to ensure a seamless learning experience.
 
-Currently, two official plugins are available:
+## DEMO
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Explore the live demo: [Upride Driving School Demo](https://upride-78e8c.web.app/)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Curated Learning Programs:** Tailor-made programs designed to cater to individual preferences and learning styles.
 
-- Configure the top-level `parserOptions` property like this:
+- **Learner's License Test Preparation:** Access curated videos to easily prepare for and pass the learner's license test.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **User Reviews:** Read reviews from other learners to make informed decisions about the quality of the driving school.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Recommended Driving Schools:** Explore a list of recommended driving schools in Bengaluru.
+
+## Technologies Used
+
+- **React:** A JavaScript library for building user interfaces.
+
+- **Typescript:** Typescript is a superset of JavaScript.
+
+- **Swiper:** A modern touch slider library.
+
+- **Tailwind CSS:** A utility-first CSS framework.
+
+- **React Icons:** A library for including popular icons in your React project.
+
+- **React Tabs:** A library for creating tabbed interfaces in React applications.
