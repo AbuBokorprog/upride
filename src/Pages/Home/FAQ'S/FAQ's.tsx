@@ -49,25 +49,194 @@ const FAQ: React.FC = () => {
           resources to become a confident and responsible driver.
         </p>
         <div className="my-10">
-          <h5 className="my-4">Driving Schools in India</h5>
-          <p>
-            Driving Schools in Bangalore | Driving Schools in Bangalore |
-            Driving Schools in Bangalore | Driving Schools in Bangalore |
-            Driving Schools in Bangalore | Driving Schools in Bangalore |
-            Driving Schools in Bangalore | Driving Schools in Bangalore |
-            Driving Schools in Bangalore | Driving Schools in Bangalore |
-            Driving Schools in Bangalore | Driving Schools in Bangalore |
-            Driving Schools in Bangalore | Driving Schools in Bangalore |
-            Driving Schools in Bangalore | Driving Schools in Bangalore |
-            Driving Schools in Bangalore | Driving Schools in Bangalore |
-            Driving Schools in Bangalore | Driving Schools in Bangalore |
-            Driving Schools in Bangalore | Driving Schools in Bangalore |
-            Driving Schools in Bangalore | Driving Schools in Bangalore |
-            Driving Schools in Bangalore | Driving Schools in Bangalore |
-            Driving Schools in Bangalore | Driving Schools in Bangalore |
-            Driving Schools in Bangalore | Driving Schools in Bangalore |
-            Driving Schools in Pune
-          </p>
+          <h3 className="my-4 font-medium">Driving Schools in India</h3>
+          <div className="grid grid-cols-1 lg:grid-cols-5 mx-auto">
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Bangalore |
+              </a>
+            </h5>
+
+            <h5>
+              <a href="#" className="underline">
+                Driving Schools in Pune
+              </a>
+            </h5>
+          </div>
         </div>
         <div className="my-10">
           <div className="my-4">
@@ -81,21 +250,24 @@ const FAQ: React.FC = () => {
         <div className="my-10">
           <h5 className="my-4">Frequently Asked Question</h5>
           <div className="mt-4">
-            <h6>1. What are the various mode of payment accepted here?</h6>
+            <h5>1. What are the various mode of payment accepted here?</h5>
+
             <p>
               You can make payment Via Cash, Debit Cards, Cheques, Amex Card,
               Credit Card, UPI, Paytm, G Pay, PhonePe.
             </p>
           </div>
           <div className="mt-4">
-            <h6>2. Which is the nearest landmark?</h6>
+            <h5>2. Which is the nearest landmark?</h5>
+
             <p>
               You can easily locate the establishment as it is in close
               proximity to Near Hanuman Mandir and Shree Ji Dry Cleaner
             </p>
           </div>
           <div className="mt-4">
-            <h6>3. What are its hours of operation?</h6>
+            <h5>3. What are its hours of operation?</h5>
+
             <p className="my-2">The establishment is functional on</p>
             <div className="mt-4 grid md:grid-cols-4 justify-start items-start">
               <div>
