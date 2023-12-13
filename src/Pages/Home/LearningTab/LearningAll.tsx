@@ -16,9 +16,9 @@ const LearningAll: React.FC<LearningAll> = ({
 }) => {
   return (
     <div className="mx-auto">
-      <div className="card bg-base-100 shadow-xl">
+      <div className=" bg-base-100 shadow-xl">
         <figure className="relative">
-          <img src={image} alt="blog" />
+          <img src={image} alt="blog" className="w-full" />
         </figure>
         <div className="card-body">
           <h3 className="card-title">{title}</h3>

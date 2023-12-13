@@ -25,7 +25,7 @@ const School: React.FC = () => {
   return (
     <div className="my-10 lg:my-20 mx-2 md:mx-10">
       <div className="my-10 lg:my-20">
-        <h2>Recommended Driving Schools</h2>
+        <h2 className="font-semibold">Recommended Driving Schools</h2>
         <div className="mt-4 md:flex gap-4 items-center md:justify-between">
           <p>
             These are upride Verified most recommended Driving Schools in

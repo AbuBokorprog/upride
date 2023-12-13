@@ -22,7 +22,7 @@ const LearningTab: React.FC = () => {
   }, []);
   return (
     <div className="my-10 lg:my-20 mx-2 md:mx-10">
-      <h2 className="text-center my-10 lg:my-20">
+      <h2 className="text-center my-10 lg:my-20 font-semibold">
         Personalized Learning Programs
       </h2>
       <div className="my-5 lg:my-20 md:flex justify-center items-center gap-6">
@@ -30,7 +30,7 @@ const LearningTab: React.FC = () => {
           <img src="/thums-banner.png" alt="" className="w-96" />
         </div>
         <div className="w-96">
-          <h3>
+          <h3 className="font-semibold">
             Easy, reliable, <br /> and flexible.
           </h3>
           <p className="my-4">
@@ -81,9 +81,9 @@ const LearningTab: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="my-10 px-6 mx-auto lg:my-20 rounded-xl lg:w-1/2 text-center border-color-specific">
-        <h3 className="my-4">Prepare for Learner’s License Test</h3>
-        <p className="my-2">
+      <div className="my-10 mx-auto lg:my-20 rounded-xl lg:w-1/2 text-center border-color-specific">
+        <h3 className="my-4 font-medium">Prepare for Learner’s License Test</h3>
+        <p className="my-2 px-14">
           Curated videos for you to easily pass learner’s license test. Watch
           now and pass the test with utmost ease.
         </p>

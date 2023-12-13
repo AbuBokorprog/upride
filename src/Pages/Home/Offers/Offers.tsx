@@ -6,10 +6,10 @@ const Offers: React.FC = () => {
     <div className="my-10 lg:my-20 mx-2 md:mx-10">
       <div className="my-10 lg:my-20">
         <div className="mx-auto text-primary ">
-          <p className="font-semibold">Best Offers</p>
+          <p className="font-medium">Best Offers</p>
           <MdOutlineHorizontalRule className="text-center w-20 h-8" />
         </div>
-        <h2>Best offers this month</h2>
+        <h2 className="font-semibold">Best offers this month</h2>
         <div className="mt-4 flex gap-4 items-center md:justify-between">
           <p>Detailed Description of these offers here.</p>
           <div className="mt-2 md:mt-0">
@@ -22,7 +22,7 @@ const Offers: React.FC = () => {
       <div className="lg:flex justify-between mx-auto items-center">
         <div className="card card-side bg-base-100 shadow-xl mt-4 lg:mt-0 border-2 border-primary">
           <div className="bg-primary text-white rounded-s-xl w-60 py-10 px-5">
-            <h4>
+            <h4 className="font-medium">
               Get 500 <br /> Discount
             </h4>
             <p>
@@ -36,7 +36,7 @@ const Offers: React.FC = () => {
         </div>
         <div className="card card-side bg-base-100 shadow-xl mt-4 lg:mt-0 border-2 border-primary">
           <div className="bg-primary text-white rounded-s-xl w-60 py-10 px-5">
-            <h4>Get 500 Flat Discount</h4>
+            <h4 className="font-medium">Get 500 Flat Discount</h4>
             <p>
               on minimum <br /> shopping of Rs. 999.
             </p>

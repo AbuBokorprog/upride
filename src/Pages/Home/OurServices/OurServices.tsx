@@ -9,7 +9,7 @@ const OurServices: React.FC = () => {
     <div className="my-10 lg:my-20 mx-auto">
       <div className="text-center my-10 lg:my-20">
         <p className="text-primary uppercase text-xl">Our Services</p>
-        <h2>How can we help you?</h2>
+        <h2 className="font-semibold">How can we help you?</h2>
       </div>
       <div className="mx-4 lg:mx-20 card shadow-xl">
         <div className="grid grid-cols-1 lg:grid-cols-4 lg:border-b-2 px-4 lg:px-0 lg:mx-20">
@@ -41,10 +41,12 @@ const OurServices: React.FC = () => {
             </p>
           </div>
         </div>
-        <div className="my-10 lg:flex mx-auto items-center px-4 lg:px-0 lg:mx-20 justify-between">
+        <div className="my-10 lg:px-0 2xl:px-32 lg:flex mx-auto items-center px-4 2xl:gap-20 lg:mx-20 justify-between">
           <div className="lg:w-1/2">
-            <h2 className="my-4">Top Rated Driving Schools Nearby</h2>
-            <p className="my-4">
+            <h2 className="my-4 font-semibold">
+              Top Rated Driving Schools Nearby
+            </h2>
+            <p className="my-4 ">
               Discover the convenience of finding highly-rated driving schools
               near you with Upride. Whether you're eager to get your driver's
               license or seeking professional training to sharpen your driving
@@ -60,10 +62,10 @@ const OurServices: React.FC = () => {
         </div>
       </div>
       <div className="my-20">
-        <h4 className="text-center md:mx-20">
+        <h3 className="text-center font-medium md:mx-20">
           Why Choose <span className="font-bold">Upride</span> as your choice
           <br /> for a comprehensive driving learning experience?
-        </h4>
+        </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto my-10">
           <div className="text-center">
             <h3 className="bg-primary mx-24 rounded-xl text-white">1000+</h3>

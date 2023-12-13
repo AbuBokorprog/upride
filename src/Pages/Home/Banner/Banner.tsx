@@ -18,11 +18,11 @@ const Banner: React.FC = () => {
         <p>Rajajinagar</p>
         <p>Rajarajeshwari Nagar</p>
       </div>
-
       <div className="lg:flex mx-auto justify-between items-center mt-8 lg:mx-10">
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2 mt-28">
           <h1 className="">
-            Learn Driving: Book <span className="font-bold">Top Driving</span>{" "}
+            Learn Driving:{" "}
+            <span className="font-semibold">Book Top Driving</span>{" "}
             <span className="text-primary">Schools</span> <br /> Near You
           </h1>
           <p className="my-10">
@@ -33,11 +33,11 @@ const Banner: React.FC = () => {
             <input
               type="search"
               placeholder="Search Location, Driving School or Services..."
-              className="input shadow-lg input-bordered relative w-full max-w-md rounded-3xl"
+              className="input shadow-sm input-bordered relative w-full max-w-md 2xl:max-w-lg rounded-3xl"
             />
             <div
-              className="flex items-center gap-2 mt-4 lg:mt-0 md:absolute md:bottom-[575px] lg:bottom-8
-            md:left-80 lg:left-96"
+              className="flex items-center gap-2 mt-4 lg:mt-0 md:absolute md:bottom-[575px] lg:bottom-8 2xl:bottom-[173px]
+            md:left-80 lg:left-96 2xl:left-[450px]"
             >
               <FaSearch className="text-primary" />
               <button className="flex items-center text-white gap-2 p-3 rounded-3xl bg-primary">
@@ -57,7 +57,7 @@ const Banner: React.FC = () => {
           <img src="/Main-banner.png" alt="" className="w-full lg:max-w-fit" />
         </div>
       </div>
-      <div className="my-10 gap-4 mx-auto md:flex justify-around">
+      <div className="my-24 gap-4 mx-auto md:flex justify-around">
         <div className="flex items-center my-1 lg:my-0 gap-4 justify-center">
           <div className="relative">
             <img src="/Polygon-blue.png" alt="" />
