@@ -27,23 +27,19 @@ const Navbar: React.FC = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
+              <div className="flex items-center gap-3 border-s ps-2">
+                <img src="/dotIcon.png" className="" alt="" />
+                <p>
+                  <span className="text-accent">Contact us :</span>{" "}
+                  <span className="font-medium">+91 9211420786</span>
+                </p>
+              </div>
+              <div className="border-s items-center ps-2 font-medium">
+                <p>Download App</p>
+              </div>
+              <div className="border-s justify-center flex-1 ps-2 font-medium">
+                <p>Are you a Driving School?</p>
+              </div>
             </ul>
           </div>
           <Link to={"/"}>

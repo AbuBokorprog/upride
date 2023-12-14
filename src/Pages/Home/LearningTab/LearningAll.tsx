@@ -17,17 +17,13 @@ const LearningAll: React.FC<LearningAll> = ({
   return (
     <div className="mx-auto">
       <div className=" bg-base-100 shadow-xl">
-        <figure className="relative">
+        <div className="relative">
           <img src={image} alt="blog" className="w-full" />
-        </figure>
-        <div className="card-body">
-          <h3 className="card-title">{title}</h3>
-          <p>{description}</p>
-          <div className="absolute top-4">
+          <div className="absolute top-6 left-8">
             {isTrending ? (
               <div className="relative">
                 <img src="/public/trending.png" alt="" />
-                <p className=" absolute text-white bottom-[7px] left-4 font-medium">
+                <p className=" absolute text-white bottom-[6px] left-4 font-medium">
                   <small>{isTrending}</small>
                 </p>
               </div>
@@ -35,6 +31,10 @@ const LearningAll: React.FC<LearningAll> = ({
               ""
             )}
           </div>
+        </div>
+        <div className="card-body">
+          <h3 className="card-title">{title}</h3>
+          <p>{description}</p>
         </div>
       </div>
     </div>
