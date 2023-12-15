@@ -19,7 +19,7 @@ const Banner: React.FC = () => {
         <p>Rajarajeshwari Nagar</p>
       </div>
       <div className="lg:flex mx-auto justify-between items-center mt-8 lg:mx-10">
-        <div className="lg:w-1/2 mt-28">
+        <div className="lg:w-1/2 mt-28 px-4 lg:px-0">
           <h1 className="">
             Learn Driving:{" "}
             <span className="font-semibold">Book Top Driving</span>{" "}
@@ -29,15 +29,15 @@ const Banner: React.FC = () => {
             Empower yourself with safe and confident driving skills today. Book
             expert Instructors and top-rated driving schools near you.{" "}
           </p>
-          <div>
+          <div className="md:relative">
             <input
               type="search"
               placeholder="Search Location, Driving School or Services..."
-              className="input shadow-sm input-bordered relative w-full max-w-md 2xl:max-w-lg rounded-3xl"
+              className="input shadow-sm input-bordered w-full lg:max-w-lg 2xl:max-w-lg rounded-3xl"
             />
             <div
-              className="flex items-center gap-2 mt-4 lg:mt-0 md:absolute md:bottom-[575px] lg:bottom-8 2xl:bottom-[173px]
-            md:left-80 lg:left-96 2xl:left-[450px]"
+              className="flex items-center gap-2 mt-4 lg:mt-0 md:absolute md:bottom-[0px] lg:-bottom-[0px] md:right-0
+             lg:left-96 2xl:left-[450px]"
             >
               <FaSearch className="text-primary" />
               <button className="flex items-center text-white gap-2 p-3 rounded-3xl bg-primary">

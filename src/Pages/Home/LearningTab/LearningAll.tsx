@@ -22,7 +22,7 @@ const LearningAll: React.FC<LearningAll> = ({
           <div className="absolute top-6 left-8">
             {isTrending ? (
               <div className="relative">
-                <img src="/public/trending.png" alt="" />
+                <img src="/trending.png" alt="" />
                 <p className=" absolute text-white bottom-[6px] left-4 font-medium">
                   <small>{isTrending}</small>
                 </p>
